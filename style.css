@@ -36,9 +36,11 @@ button:hover{
     transform: scale(1.05);
 }
 
-body{
-    background-color: darkgray;
-    height: 100vh;
+@media only screen and (max-width: 768px){
+    body{
+        background-color: rgb(165, 163, 163);
+        height: 100vh;
+    }
 }
 
 .interface {
@@ -49,8 +51,10 @@ body{
     display: flex;
 }
 
-header{
-    padding: 40px 4%;
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 20px 4%;
+    }
 }
 
 header > .interface {
