@@ -37,7 +37,7 @@ button:hover{
 }
 
 body{
-    background-color: rgb(165, 163, 163);
+    background-color: srgb(80, 78, 78);
     height: 100vh;
 }
 
