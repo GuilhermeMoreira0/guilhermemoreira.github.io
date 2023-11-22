@@ -41,13 +41,7 @@ body{
     height: 100vh;
 }
 
-@media (min-width:300px) and (max-width: 400px) {
-    body{
-        background-color: rgb(165, 163, 163);
-        height: 100vh;
-    }
-    
-}
+
 
 
 .interface {
