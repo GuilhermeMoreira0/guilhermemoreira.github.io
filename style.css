@@ -36,26 +36,29 @@ button:hover{
     transform: scale(1.05);
 }
 
-@media only screen and (max-width: 768px){
+@media (min-width:300px) and (max-width: 400px) {
     body{
         background-color: rgb(165, 163, 163);
         height: 100vh;
     }
+    
 }
+
 
 .interface {
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .flex{
     display: flex;
 }
 
-@media only screen and (max-width: 768px) {
-    header {
-        padding: 20px 4%;
-    }
+
+header {
+    padding: 20px 4%;
 }
+
 
 header > .interface {
     display: flex;
