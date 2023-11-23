@@ -137,6 +137,7 @@ section.topo-do-site .flex{
     }
 }
 
+/*Especialidades*/
 section.especialidades{
     padding: 40px 4%;
 }
@@ -181,13 +182,15 @@ section.sobre .flex{
     gap: 60px;
 }
 
-.sobre .txt-sobre{
-    max-width: 10000px;
-    margin: 20px auto;
-    padding: 90px;
-    background-color: rgba(169, 169, 169, 0.616);
-    border-radius: 8px;
-    box-shadow: 0 0 10px 5px #000000;
+
+section a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 1.2s;
+    font-size: 24px;
 }
 
 .sobre .txt-sobre h2{
@@ -261,8 +264,19 @@ section.portfolio span{
     color: #000;
 }
 
+.sobre .txt-sobre{
+    max-width: 10000px;
+    margin: 20px auto;
+    padding: 90px;
+    background-color: rgba(169, 169, 169, 0.616);
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px #000000;
+}
+
+
 section.portfolio .span2{
     color: #fff;
+    font-size: 24px;
 }
 
 section.portfolio a{
@@ -288,6 +302,12 @@ section.especialidades{
 
 section.especialidades .flex{
     gap: 150px;
+}
+
+section .portfolio .btn-certificado{
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 25px;
 }
 
 .portfolio .especialidadesbox{
@@ -318,6 +338,7 @@ section.especialidades .flex{
 
 @media screen and (max-width: 1020px) {
     /*Classes Gerais*/
+
     .flex{
         flex-direction: column;
     }
