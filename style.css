@@ -258,6 +258,10 @@ section.portfolio{
 }
 
 section.portfolio span{
+    color: #000;
+}
+
+section.portfolio .span2{
     color: #fff;
 }
 
