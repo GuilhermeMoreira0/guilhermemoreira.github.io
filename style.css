@@ -257,6 +257,10 @@ section.portfolio{
     box-shadow: 0 0 20px 10px #000000;
 }
 
+section.portfolio span{
+    color: #fff;
+}
+
 section.portfolio a{
     width: 1000px;
     font-size: 28px;
@@ -306,6 +310,33 @@ section.especialidades .flex{
     text-decoration: none;
 }
 
+
+
 @media screen and (max-width: 1020px) {
-    
+    /*Classes Gerais*/
+    .flex{
+        flex-direction: column;
+    }
+
+    /*Cabeçalho*/
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    /*Topo do site*/ 
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;
+    }
 }
