@@ -368,4 +368,14 @@ section.especialidades .flex{
     .btn-social{
         text-align: center;
     }
+
+    /*Rodapé*/
+    footer .line-footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .line-footer .line-footer{
+        text-align: center;
+    }
 }
