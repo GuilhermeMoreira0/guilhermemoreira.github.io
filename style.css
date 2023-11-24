@@ -156,7 +156,7 @@ section.especialidades .flex{
 
 .especialidades .especialidadesbox:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 10px 5px #000000;
 }
 
 .especialidades .especialidadesbox i{
@@ -253,11 +253,11 @@ footer .line-footer p a{
     color: #fff;
 }
 
-/* Estilo Portfólio */
+/* Estilo certificado */
 
 section.portfolio{
     padding: 80px 4%;
-    box-shadow: 0 0 20px 10px #000000;
+    box-shadow: 0 0 10px 5px #000000;
 }
 
 section.portfolio span{
@@ -336,6 +336,73 @@ section .portfolio .btn-certificado{
     text-decoration: none;
 }
 
+/*Estilo Portfólio*/
+
+section.portfolio2{
+    padding: 80px 4%;
+    
+}
+
+section.portfolio2 .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+    display: flex;
+}
+
+.portfolio2 .img-port{
+    width: 50%;
+    background-size: cover;
+}
+
+.portfolio2 .descricao{
+    width: 45%;
+    color: #fff;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #423e3e44;
+}
+
+
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b7;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
 
 
 @media screen and (max-width: 1020px) {
