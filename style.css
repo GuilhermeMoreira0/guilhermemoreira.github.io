@@ -405,4 +405,36 @@ section.portfolio2 .flex{
     opacity: 1;
 }
 
+@media screen and (max-width: 1020) {
+    /*CLASSES GERAIS */
+    .flex{
+        flex-direction: column-reverse;
+    }
 
+    /*CABEÇALHO*/
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    /*TOPO DO SITE*/
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        line-height: 30px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    /*ESPECILIDADES*/
+    section.portfolio2{
+        padding: 40px 4%
+    }
+}
