@@ -405,11 +405,16 @@ section.portfolio2 .flex{
     opacity: 1;
 }
 
-@media screen and (max-width: 1020) {
+@media screen and (max-width: 1020px) {
     /*CLASSES GERAIS */
     .flex{
         flex-direction: column-reverse;
     }
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
 
     /*CABEÇALHO*/
     .menu-desktop, .btn-contato{
@@ -436,5 +441,44 @@ section.portfolio2 .flex{
     /*ESPECILIDADES*/
     section.portfolio2{
         padding: 40px 4%
+    }
+
+    /*SOBRE*/
+    section.sobe {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btnsocial {
+        text-align: center;
+    }
+
+    /*Portfólio*/
+
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    section.portfolio .flex {
+        gap: 60px;
+    }
+
+    /*Rodapé*/
+    footer .flex{
+        flex-direction: column;
+    }
+
+    footer .line-footer{
+        text-align: center;
     }
 }
