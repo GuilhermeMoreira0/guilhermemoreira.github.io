@@ -409,6 +409,9 @@ section.portfolio2 .flex{
     /*CLASSES GERAIS */
     .flex{
         flex-direction: column-reverse;
+        display: flex;
+        justify-items: center;
+        max-width: 100%;
     }
     h2.titulo {
         font-size: 34px;
@@ -601,8 +604,6 @@ section.portfolio2 .flex{
         color: #fff;
     }
     
-
-
     /*Rodapé*/
     footer .flex{
         flex-direction: column;
@@ -611,4 +612,5 @@ section.portfolio2 .flex{
     footer .line-footer{
         text-align: center;
     }
+
 }
