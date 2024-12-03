@@ -436,6 +436,39 @@ section.portfolio2 .flex{
     opacity: 1;
 }
 
+.projeto-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.especialidades-box {
+    padding: 20px;
+    background-color: #527674;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.especialidades-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.projeto-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.projeto-descricao {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+
+
 @media screen and (max-width: 1020px) {
     /*CLASSES GERAIS */
     .flex{
